@@ -351,7 +351,7 @@ kubectl delete -f 7-appb.yml
 # 
 # Exercise (Pod + Service)
 # 
-# Supporting files in the Exercise-Files folder
+# Supporting files in the exercise-files folder
 # 
 ###############################
 # Task:
