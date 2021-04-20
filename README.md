@@ -1,9 +1,7 @@
 # k8s-intro
 A short introduction to Kubernetes - slides + demo
-
-Current title: Kubernetes in One Hour
-
-Expected length: 1:30 h
+* Current title: Kubernetes in One Hour
+* Expected length: 1:30 h
 
 It all started with the **Kubernetes in 20 minutes** presentation held at **SofUnit 2018**. The title, length, and content have changed over time. 
 
