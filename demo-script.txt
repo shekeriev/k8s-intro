@@ -259,7 +259,7 @@ kubectl describe rs
 # Apply the newer deployment configuration but record the changes
 kubectl apply -f 5-appa-deploy-v2.yml --record
 
-# Whatch the deployment rollout. It is done one pod at a time
+# Watch the deployment rollout. It is done one pod at a time
 kubectl rollout status deployment appa-deploy 
 
 # Refresh the open browser tab. You will notice that some of the requests will be served by the old version of the "application" and others by the new one
@@ -270,7 +270,7 @@ kubectl rollout history deployment appa-deploy
 # Undo the latest deployment and return the the previous version of the "application"
 kubectl rollout undo deployment appa-deploy --to-revision=1
 
-# Whatch the rollback process
+# Watch the rollback process
 kubectl rollout status deployment appa-deploy 
 
 # Refresh the open browser tab. You will notice that some of the requests will be served by the old version of the "application" and others by the new one
@@ -345,7 +345,7 @@ tail -f /data/generated-data.txt
 kubectl logs appb-deploy-xxxxxxxxxx-xxxxx --container appb-container-1st
 
 # Clean up by removing the resources created earlier
-kubectl delete -f 7-appb.yml
+kubectl delete -f 6-appb.yml
 
 
 # 
