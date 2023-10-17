@@ -1,7 +1,7 @@
 <html lang="en">
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <title>World of SoftUnit and Kubernetes</title>
+    <title>World of Kubernetes</title>
   </head>
   <body>
     <div align="center">
